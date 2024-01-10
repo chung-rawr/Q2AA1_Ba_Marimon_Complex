@@ -1,0 +1,103 @@
+
+@font-face {
+    font-family: kuhmb;
+    src: url(font/KumbhSans-VariableFont_YOPQ\,wght.ttf);
+}
+
+
+
+body{
+    background: linear-gradient(90deg, rgb(62, 221, 221),rgb(11, 129, 145));
+    overflow: hidden;
+}
+
+section{
+    position: relative;
+    left: 37%;
+    top: 23vh;
+    height: 48vh;
+    width: 45vh;
+    border-radius: 33px;
+    overflow: hidden;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0vh 0vh 30px rgb(11, 129, 145);
+}
+
+
+.topp{
+    background-image: url(images/bg-pattern-card.svg);
+    width: 50vh;
+    height: 18vh;
+}
+
+.profile{
+    background-image: url(images/image-victor.jpg);
+    width: 10vh;
+    height: 10vh;
+    border-radius: 100vh;
+    border: 5px solid white;
+    transform: translate(17vh , -5.3vh);
+}
+
+.social{
+    display: inline-flex;
+    gap: 40%;
+    transform: translate(-7vh, 4vh);
+}
+
+.text{
+    text-align: center;
+    font-family: kuhmb;
+}
+#name{
+    font-size: 23px;
+    transform: translate(-1vh, -6vh);
+    display: inline-flex;
+}
+#age{
+    transform: translate(1vh, 2.5vh);
+    color: gray;
+}
+#location{
+    font-size: 2vh;
+    color: gray;
+    transform: translate(0vh, -7vh);
+}
+.follow{
+    font-size: 23px;
+    transform: translate(0vh, -6vh)
+}
+.like{
+    font-size: 23px;
+    transform: translate(0vh, -6vh)
+}
+.photos{
+    font-size: 23px;
+    transform: translate(0vh, -6vh)
+}
+
+#label{
+    color: gray;
+    font-size: 1.5vh;
+    transform: translate(0vh, -2vh);
+}
+
+.top{
+    background-image: url(images/bg-pattern-top.svg);
+    width: 102vh;
+    height: 100vh; 
+    transform:translate(-100px, -800px);
+    z-index: 1;
+    display: flex;
+}
+.bottom{
+    background-image: url(images/bg-pattern-bottom.svg);
+    width: 100vh;
+    height: 100vh; 
+    transform:translate(1000px, -1000px);
+    z-index: 1;
+    display: flex;
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
